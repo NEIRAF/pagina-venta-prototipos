@@ -1,0 +1,109 @@
+*{ margin: 0; padding: 0;}
+
+body{
+	font-family: times, georgia, serif;
+	background:#9ACD32; 
+	min-height: 100vh:
+}
+
+.container{
+	width: 100%;
+	max-width: 860px;
+	margin: 0 auto;
+}
+
+.header{
+	background:#1E90FF;
+	color:#333;
+	padding:2rem 1.5rem;
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+}
+
+.header a {
+	color: #333;
+	display: block;
+}
+
+.logo{
+	letter-spacing: 25px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	right: 0px;
+}
+
+.registro{
+	margin: center;
+	position: absolute;
+	top: 170px;
+	bottom: 25px 20px;
+	right: 0px;
+	left: 20px;
+	
+} 
+
+.form{
+	position: absolute;
+	left: 0;
+	top: 62px;
+	right: 0;
+	margin: 0px auto;
+	width: 800px;
+	max-width: 500px;
+	background: #DCDCDC;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+.h2{
+	text-align: center;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+.field{
+	display: block;
+	padding: 8px;
+	width: 100%;
+	margin: 5px 0;
+	font-size: 10px;
+}
+
+.field[type="submit"]{
+	background: #1E90FF;
+	border: 0;
+	color: #333;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 0;
+}
+
+.field[type="submit"]:hover {
+	opacity: 2;
+}
+
+.field[type="submit"]:active {
+	transform: scale(0.95);
+}
+
+.main{
+	padding-top: 40rem;
+}
+
+.footer{
+	background: #87CEFA;
+	padding: 2rem 0;
+	text-align: center;
+	margin-top: 19rem;
+	color: #333;
+}
